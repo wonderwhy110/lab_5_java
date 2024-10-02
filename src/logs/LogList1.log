@@ -1,0 +1,20 @@
+Start program: 2024-10-02
+ArrayList
+add, ID = 1,3300
+add, ID = 2,500
+add, ID = 3,300
+add, ID = 4,300
+add, ID = 5,300
+add, ID = 6,200
+add, ID = 7,200
+add, ID = 8,200
+add, ID = 9,200
+add, ID = 10,200
+addTotalCount =10
+addTotalTime =5700
+addMediumTime =570
+remove, ID = 6, 4300.0
+removeTotalCount = 1
+removeTotalTime = 4300
+removeMedianTime = 4300
+Finish program
