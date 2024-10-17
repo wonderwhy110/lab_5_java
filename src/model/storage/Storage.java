@@ -1,7 +1,5 @@
 package model.storage;
-import model.Wagon;
 import model.products.Product;
-import view.View;
 
 import java.util.ArrayList;
 import java.util.List;

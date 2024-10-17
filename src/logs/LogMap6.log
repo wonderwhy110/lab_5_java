@@ -1,20 +1,20 @@
-Start program: 2024-10-02
+Start program: 2024-10-15
 HashMap
-add, ID = 1,500
+add, ID = 1,300
 add, ID = 2,100
 add, ID = 3,100
-add, ID = 4,100
+add, ID = 4,0
 add, ID = 5,0
 add, ID = 6,100
-add, ID = 7,100
+add, ID = 7,0
 add, ID = 8,0
 add, ID = 9,0
-add, ID = 10,0
+add, ID = 10,100
 addTotalCount =10
-addTotalTime =1000
-addMediumTime =100
-remove, ID = 9, 5700.0
+addTotalTime =700
+addMediumTime =70
+remove, ID = 0, 7300.0
 removeTotalCount = 1
-removeTotalTime = 5700
-removeMedianTime = 5700
+removeTotalTime = 7300
+removeMedianTime = 7300
 Finish program

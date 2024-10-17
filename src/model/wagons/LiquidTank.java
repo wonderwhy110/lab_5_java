@@ -1,4 +1,4 @@
-package model;
+package model.wagons;
 
 import model.storage.Storage;
 import view.View;

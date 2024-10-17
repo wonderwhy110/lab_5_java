@@ -1,5 +1,5 @@
 package model.arr;
-import model.Wagon;
+import model.wagons.Wagon;
 import java.util.Random;
 import java.util.Map;
 import java.util.HashMap;
@@ -87,8 +87,6 @@ public class CreateArray {
         x.log("addMediumTime =" + sum/n);
         return x;
     }
-
-
 
 
 }

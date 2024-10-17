@@ -1,11 +1,11 @@
-package model;
+package model.wagons;
 
 import model.storage.Storage;
 import view.View;
 
 import java.util.Objects;
 
-public class CarPlatform extends Wagon{
+public class CarPlatform extends Wagon {
     private int trucksNum; //кол-во грузовиков
     private int carNum; //кол-во легковых авто
     public CarPlatform(int i, int i1){

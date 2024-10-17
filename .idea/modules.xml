@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lab3_java.iml" filepath="$PROJECT_DIR$/lab3_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4_java.iml" filepath="$PROJECT_DIR$/lab4_java.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/gson-gson-parent-2.11.0/gson-gson-parent-2.11.0/gson/src/main/java/com/untitled/untitled.iml" filepath="$USER_HOME$/Downloads/gson-gson-parent-2.11.0/gson-gson-parent-2.11.0/gson/src/main/java/com/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

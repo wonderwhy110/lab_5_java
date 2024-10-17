@@ -1,12 +1,11 @@
-package model;
+package model.wagons;
 import model.products.Product;
 import model.storage.Storage;
-import view.View;
+import java.io.Serializable;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Wagon {
+public class Wagon implements Serializable  {
+    private static final long serialVersionUID = 1L;
     private static int num;
     private double weight; // вес вагона
     private int id; // 1-контейнер, 2-для жидкости 3-для сыпуч  4-для авто
@@ -34,7 +33,6 @@ public class Wagon {
         num+=1;
     }
     public Wagon(double w, int m, double we,String name) {
-
         this.weight=w;
         this.id=m;
         num+=1;
@@ -74,4 +72,5 @@ public class Wagon {
     protected void addTruck(int i) {
 
     }
+
 }

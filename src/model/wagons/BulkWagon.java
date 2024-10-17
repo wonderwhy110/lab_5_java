@@ -1,11 +1,9 @@
-package model;
+package model.wagons;
 
 import model.storage.Storage;
 import view.View;
 
-import java.util.Objects;
-
-public class BulkWagon extends Wagon{
+public class BulkWagon extends Wagon {
 
     private double capacity; // объемная ёмкость
     BulkWagon(){

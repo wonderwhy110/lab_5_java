@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="lab3_java" options="--add-modules java.logging" />
+      <module name="lab4_java" options="--add-modules java.logging" />
     </option>
   </component>
 </project>

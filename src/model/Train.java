@@ -1,5 +1,5 @@
 package model;
-import model.products.Product;
+import model.wagons.Wagon;
 
 import java.util.ArrayList;
 import java.util.List;

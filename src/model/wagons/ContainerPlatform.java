@@ -1,10 +1,10 @@
-package model;
+package model.wagons;
 
 import model.products.Product;
 import model.storage.Storage;
 import view.View;
 
-public class ContainerPlatform extends Wagon{
+public class ContainerPlatform extends Wagon {
     private int numСontainer; // количество
     private double width; // ширина конт
     ContainerPlatform(){
