@@ -33,19 +33,20 @@ public class CreateMap {
     }
     public CreateMap(){}
 
-    public Map<Integer, Wagon> CreateMap(int n){
+    public int[] CreateMap(int n){
         Map<Integer, Wagon> arr = new HashMap<Integer, Wagon>();
 
         double cur_time=0;
         double d_time=0;
         ArrayList<Integer> d_times = new ArrayList<Integer>();
-
+        int sum=0;
         for (int i=0; i<n; i++){
             Wagon wag=randWagon();
             cur_time=System.nanoTime();
             arr.put(i,wag);
             d_time=(int)(System.nanoTime()-cur_time);
             d_times.add((int) d_time);
+            sum += d_times.get(i);
 
         }
         MyLogger file = loadList(d_times,  n);
@@ -66,7 +67,9 @@ public class CreateMap {
         file.log("removeMedianTime = " + s/r);
         file.log("Finish program");
 
-        return  (Map<Integer, Wagon>) arr;
+
+
+        return new int[]{sum / n,s / r};
 
     }
 

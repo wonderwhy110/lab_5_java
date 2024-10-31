@@ -25,7 +25,7 @@ public class CreateArray {
    }
    public CreateArray(){}
 
-    public ArrayList CreateArrayList(int n){
+    public int[] CreateArrayList(int n){
         List<Wagon> arr=new ArrayList<Wagon>();
         double cur_time=0;
         double d_time=0;
@@ -56,8 +56,13 @@ public class CreateArray {
         file.log("removeTotalTime = " + s);
         file.log("removeMedianTime = " + s/r);
         file.log("Finish program");
+        int sum=0;
+        for (int i=0; i<n; i++){
+            sum += d_times.get(i);
 
-        return (ArrayList<Wagon>) arr;
+        }
+
+        return new int[]{sum / n,s / r};
 
     }
 
